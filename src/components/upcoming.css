@@ -1,0 +1,176 @@
+
+
+
+
+
+.upcoming{
+    position: absolute;
+    top: 1200px;
+    margin-left: 11%;
+    scrollbar-width: none;
+}
+
+.image-grid {
+    
+    display: flex;
+    flex-wrap:wrap;
+    
+    width:96%;
+    
+  }
+  
+  .image-item {
+    flex: 0 0   calc(43.33% - 200px);
+     height: 350px;
+    
+     box-sizing: border-box;
+     border-style:  solid;
+     border-color: rgb(110, 114, 114);
+     padding: 5px;
+     border-radius: 10px;
+     margin:20px;
+    
+    /* background-color: aqua; */
+ 
+    
+  }
+
+  .image{
+    height:75%;
+    width: 100%;
+    object-fit: cover; 
+    border-radius: 3px;
+    
+    
+  }
+  
+  
+  .image-item {
+    position: relative;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 90px; /* Adjust as needed */
+    
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    border-radius: 5px;
+    color: white;
+    width: 97%;
+    
+  }
+
+  .cards{
+    flex-wrap: nowrap;
+  }
+  
+  .overlay-text {
+    
+    margin-left: 15px;
+    margin-top: 10px;
+    
+    
+  }
+  .text{
+    color:rgb(4, 0, 0);
+    flex-wrap: nowrap;
+    margin-left: 45px;
+  }
+  .city{
+    color:black;
+    flex-wrap: nowrap;
+  }
+  .after{
+    color: black;
+    flex-wrap: nowrap;
+  }
+  .seeall{
+    /* margin-left: 70%; */
+    display: none;
+    
+  }
+  .rightarrowup{
+    margin-top: 2px;
+    margin-left: 190px;
+    font-size: 3.5rem;
+    position: absolute;
+    
+  }
+
+  .events{
+    margin-top: 13px;
+    
+  }
+
+
+
+
+
+  @media screen and (max-width: 575px){
+        .maindude{
+          margin: 0;
+          height:700px;
+        }
+  
+        .upcoming{
+          top:750px;
+          left: 1%;
+          position: absolute;
+          margin: none;
+          
+        }
+        .events{
+          margin-left: 2vw;
+        }
+       .image-grid{
+          width: 90vw;
+          /* height: 100vh; */
+          display: block;
+          margin-left: none;
+       }
+       .image-item{
+          border-radius: 15px;
+          width: 100%;
+       }
+       .image{
+        border-radius: 10px;
+       }
+       .text{
+        margin-left: 140px;
+        font-size: 1rem;
+        flex-wrap: nowrap;
+       }
+       .city{
+        font-size: large;
+        flex-wrap: nowrap;
+        font-size: 1rem;
+       }
+       .events{
+        margin-left: 50px;
+        margin-bottom: none;
+        box-sizing: border-box;
+        flex-wrap: nowrap;
+        
+       }
+       .seeall{
+        margin-left: 95px;
+        flex-wrap: nowrap;
+        display: flex;
+        margin-top: 13px;
+       }
+       .rightarrowup{
+        margin-top: 7px;
+        margin-left: 220px;
+        font-size: 2.5rem;
+       }
+       .cards{
+        flex-wrap: nowrap;
+       }
+       .adjust{
+        margin-left:25px;
+       }
+
+  }
+

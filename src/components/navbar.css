@@ -1,0 +1,77 @@
+.location {
+    margin-top: 2.4rem;
+    color: #b0babf;
+     
+}
+
+.navbar {
+    flex-wrap: nowrap;
+    /* overflow-x: scroll;  */
+    color: #b0babf;
+    scroll-behavior: auto;
+    
+    
+}
+
+.navbar::-webkit-scrollbar {
+    display: none; 
+
+    
+}
+
+
+.main {
+    overflow-x: hidden;
+    margin-left: 115px;
+
+}
+
+.mumbai {
+    margin-top: 34px;
+    color: #b0babf;
+}
+
+.arrow {
+    margin-top: 36px;
+    color: #b0babf;
+    
+
+}
+
+
+
+
+@media screen and (max-width: 675px){
+    .navbar{
+        width: auto;
+        overflow-x: scroll;
+        
+        
+    }
+    .navbar .nav-item {
+        width: 100%; /* Set the width to 100% for smaller screens */
+        margin-bottom: 5px;
+        white-space: nowrap;
+        
+    }
+ 
+    
+}
+
+@media screen and (min-width : 676px){
+    .main{
+        display: flex;
+    }
+    .navbar{
+        margin-left: 80px;
+        width: 40%;
+        margin: auto;
+        white-space: nowrap;
+        
+        
+    }
+    .address{
+        white-space: nowrap;
+    }
+
+}

@@ -1,0 +1,249 @@
+.discover{
+    
+    margin-top:  20vh;
+    
+    
+}
+
+
+
+.exciting{
+    line-height: 13vh;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 4rem;
+}
+.paragraph{
+    margin-top: 25px;
+    font-size: larger;
+}
+
+
+/* General styles for the carousel container */
+.carousel-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Style for each carousel card */
+.card {
+    
+    overflow: hidden;
+    border: none;
+    border-radius: 10px; /* Optional: for rounded corners */
+    width: 80%;
+}
+
+.card-img-top {
+    width: 60%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+/* Overlay styling */
+.card-img-overlay {
+    position: absolute;
+    padding: 7px; /* Padding around the text */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white; /* White text color */
+
+}
+
+.card-title {
+    font-size: 1.5rem; /* Large text for the title */
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem; /* Smaller text for other details */
+
+}
+
+
+.carousel-item-padding-40-px {
+    padding-right: 15px; 
+    padding-left: 5px;  
+  }
+
+.card-img-top{
+
+    height: 100%;
+    width: 100%;
+    
+    
+}
+ 
+.maincard{
+    top:80%;
+    width: 1450px;
+    height: 50%;
+    margin-left: none;
+}
+
+.location{
+    font-size: large;
+}
+
+
+.items{
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.recomm{
+    top:75%;
+    color: white;
+    white-space: nowrap;
+  
+    
+
+}
+.see{
+    margin-left: 60%;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-top: 12px;
+    
+}
+
+
+.rightarrow{
+    left: 1%;
+    position: relative;
+    margin-top: 8px;
+    font-size: 3.5rem;
+    bottom: 17px;
+    cursor: pointer;
+    
+    
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+
+.shows{
+    cursor: pointer;
+    
+}
+
+.marshall{
+    left:1%;
+    width: 110%;
+    margin-left: 21px;
+}
+
+
+/* Responsive settings for different devices */
+@media screen and (max-width: 675px) {
+    .card-img-overlay {
+        padding: 7px; 
+        font-size: small;
+        
+    }
+    .card-title {
+        font-size: 1.0rem;
+    }
+    .card-text {
+        font-size: 0.5rem;
+    }
+    .discover{
+        margin-left: 55px;
+        position: absolute;
+        margin-top: 1px;
+    }
+    .exciting{
+        font-size: large;
+        line-height: 20px;
+    }
+    .paragraph{
+        font-size: small;
+        line-height: 15px;
+    
+    }
+    .maincard{
+        top: 160px;
+        height: 370px;
+        width: 360px;
+        margin-left: 30px;
+    }
+    .recomm{
+        top:150px;
+        font-size: small;
+        width: 8%;
+
+    }
+    .shows{
+        font-size: small;
+        margin-top: 10px;
+    }
+    .see{
+        font-size: small;
+        margin-left: 90px;
+    }
+    
+    .rightarrow{
+        bottom: 11px;
+        left: 10px;
+        /* margin-bottom: 25px; */
+        position: relative;
+        margin-top: 10px;
+        font-size: 2.5rem;
+
+    }
+   .banner{
+    
+    width:470px;
+
+    
+   }
+   .body{
+    
+    width: 500px;
+   }
+
+   .makeagree{
+    margin-left: none;
+   }
+   .marshall{
+    margin-left: 115px;
+    margin-top: 25px;
+   }
+ 
+
+}
+
+
+@media screen and (min-width:676px){
+  .discover{
+    margin-left: 150px;
+  }
+  .exciting{
+    margin-left: 10px;
+  }
+
+
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
