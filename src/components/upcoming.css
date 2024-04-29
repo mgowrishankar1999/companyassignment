@@ -137,7 +137,7 @@
        .text{
         /* margin-left: 103px; */
         font-size: 1rem;
-        flex-wrap: nowrap;
+        white-space: nowrap;
        }
        .city{
         font-size: large;
