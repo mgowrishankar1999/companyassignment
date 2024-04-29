@@ -1,4 +1,5 @@
 
+
 .upcoming{
     position: absolute;
     top: 1200px;
@@ -74,7 +75,7 @@
     color:rgb(4, 0, 0);
     flex-wrap: nowrap;
     white-space: nowrap;
-    margin-left: 57px;
+    margin-left: 60px;
   }
   .city{
     color:black;
@@ -134,7 +135,7 @@
         border-radius: 10px;
        }
        .text{
-        margin-left: 120px;
+        margin-left: 103px;
         font-size: 1rem;
         flex-wrap: nowrap;
        }
