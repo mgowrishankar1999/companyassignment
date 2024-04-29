@@ -1,12 +1,7 @@
 
-
-
 .book{
     color:red;
-    margin-left: 1rem;
-      
-  
-    
+    margin-left: 1rem;    
 }
 
 .hamburger{
@@ -29,12 +24,10 @@
     margin-left: 15px;
     padding: 0.5rem;
     width:100%
-  
 
-    
 }
 
-/* removeing default cancel button or reset button */
+
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -43,7 +36,6 @@
 
 
 .input-wrapper{
-    
   
     background-color: rgb(255, 255, 255);
     width:40%;
@@ -55,22 +47,14 @@
     display:flex;
     align-items: center;
     
-    
-
-    
 }
 
 
 input{
     background-color: transparent;
-
      height:100%; 
      width: 100%;
-     border: none;
-     
-
-     
-    
+     border: none; 
 }
 .search{
     background-color: white;
@@ -79,7 +63,6 @@ input{
     flex-grow: 1;
 }
 
-
 input:focus{
     outline:none;
 }
@@ -87,8 +70,6 @@ input:focus{
 #search{
     color: #B0BABF;
    
-    
-        
 }
 
 .love{
@@ -99,7 +80,6 @@ input:focus{
     color:rgb(36, 34, 34);
     font-size: x-large;
     font-weight: 600;
-    
 
 }
 .button{
@@ -117,13 +97,11 @@ input:focus{
     color:#B0BABF;
 }
 
-
 @media (max-width: 575.98px) {
     .container{
         padding-right: 15px;
         padding-left: 15px;
     }
-    
 
     .gow {
         width: 100%; 
@@ -156,7 +134,6 @@ input:focus{
     .love{
         margin-right: 25px;
         font-size: 32px;
-    
     }
 
     .person{
@@ -170,7 +147,6 @@ input:focus{
         font-size: 32px;
     }
    
-   
     .icons{
         margin-left: 35px;
     }
@@ -181,7 +157,6 @@ input:focus{
     .person{
         display: none;
     }
-  
     
 }
 

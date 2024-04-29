@@ -131,7 +131,7 @@ function Body() {
                       <div className="d-flex items">
                           <div>  
                               <h5 className="me-2 makeagree">Make Agree </h5>
-                              <p >  {event.cityName} </p>
+                              <p>  <span class="material-symbols-outlined loc mt-4">location_on</span> {event.cityName}</p>
                             
                           </div>
                           <div>

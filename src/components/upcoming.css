@@ -1,12 +1,8 @@
 
-
-
-
-
 .upcoming{
     position: absolute;
     top: 1200px;
-    margin-left: 11%;
+    margin-left: 7%;
     scrollbar-width: none;
 }
 
@@ -64,6 +60,7 @@
 
   .cards{
     flex-wrap: nowrap;
+    white-space: nowrap;
   }
   
   .overlay-text {
@@ -76,7 +73,8 @@
   .text{
     color:rgb(4, 0, 0);
     flex-wrap: nowrap;
-    margin-left: 45px;
+    white-space: nowrap;
+    margin-left: 57px;
   }
   .city{
     color:black;
@@ -116,7 +114,6 @@
   
         .upcoming{
           top:750px;
-          left: 1%;
           position: absolute;
           margin: none;
           
@@ -126,7 +123,6 @@
         }
        .image-grid{
           width: 90vw;
-          /* height: 100vh; */
           display: block;
           margin-left: none;
        }
@@ -138,7 +134,7 @@
         border-radius: 10px;
        }
        .text{
-        margin-left: 140px;
+        margin-left: 120px;
         font-size: 1rem;
         flex-wrap: nowrap;
        }
@@ -146,12 +142,14 @@
         font-size: large;
         flex-wrap: nowrap;
         font-size: 1rem;
+        white-space: nowrap; 
        }
        .events{
         margin-left: 50px;
         margin-bottom: none;
         box-sizing: border-box;
         flex-wrap: nowrap;
+        white-space: nowrap;
         
        }
        .seeall{
@@ -159,6 +157,7 @@
         flex-wrap: nowrap;
         display: flex;
         margin-top: 13px;
+        white-space: nowrap;
        }
        .rightarrowup{
         margin-top: 7px;

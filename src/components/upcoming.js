@@ -74,7 +74,7 @@ function Upcoming() {
 
             <div><h5 className="after ms-1">After note nearly</h5></div>
             <div className="d-flex cards">
-              <p className="city ms-1">{data.cityName}</p>
+              <p className="city ms-1"><span class="material-symbols-outlined mt-2">location_on</span>{data.cityName}</p>
               <p className=" text">{data.weather} | <span>{normalizeDistance(data.distanceKm)}</span></p>
             </div>
           </div>
