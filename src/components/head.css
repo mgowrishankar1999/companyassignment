@@ -117,7 +117,7 @@ input:focus{
     #search{
        
         margin-left: 75%; 
-        font-size: 30px;
+        font-size: 50px;
     }    
 
     .favorite{
@@ -164,4 +164,5 @@ input:focus{
     .hamburger {
         display: none;
     }
+    
 }
